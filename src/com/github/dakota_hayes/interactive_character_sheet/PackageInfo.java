@@ -1,2 +1,1 @@
-
 package com.github.dakota_hayes.interactive_character_sheet;
