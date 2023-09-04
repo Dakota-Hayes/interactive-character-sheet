@@ -23,9 +23,9 @@ public class Attribute extends Element {
 	}
 
 	// Int based value constructor
-	public Attribute(String nameStringArgs, String descriptionStringArgs, String fPathStringArgs, boolean activeBooleanArgs) {
+	public Attribute(String nameStringArgs, String descriptionStringArgs, String fPathParentStringArgs, boolean activeBooleanArgs, boolean templateBooleanArgs) {
 	
-		super(nameStringArgs, descriptionStringArgs, fPathStringArgs, activeBooleanArgs,".ATT");
+		super(nameStringArgs, descriptionStringArgs, fPathParentStringArgs, activeBooleanArgs, templateBooleanArgs,".ATT");
 	
 		this.valueString = "";
 		this.valueInt = 0;
